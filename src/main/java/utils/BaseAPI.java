@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 
 public class BaseAPI {
 
-    protected String baseURL = "https://api.example.com"; // Replace with your base URL
+    protected String baseURL = "https://reqres.in/"; // Replace with your base URL
     protected String accessToken;
 
     public Response postRequest(String endpoint, Object payload) {

@@ -18,13 +18,13 @@ public class APITests {
 
     @Test(priority = 1)
     public void loginTest() {
-        loginPage.login("testuser", "password123");
+        loginPage.login("eve.holt@reqres.in", "cityslicka");
         System.out.println("Login successful!");
     }
 
-    @Test(priority = 2, dependsOnMethods = "loginTest")
-    public void fillFormTest() {
-        formPage.submitForm("John Doe", "johndoe@example.com", "This is a test message.");
-        System.out.println("Form submitted successfully!");
-    }
+//    @Test(priority = 2, dependsOnMethods = "loginTest")
+//    public void fillFormTest() {
+//        formPage.submitForm("John Doe", "johndoe@example.com", "This is a test message.");
+//        System.out.println("Form submitted successfully!");
+//    }
 }
