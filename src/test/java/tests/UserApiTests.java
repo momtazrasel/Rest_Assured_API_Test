@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.FormPage;
 import pages.LoginPage;
 
-public class APITests {
+public class UserApiTests {
 
     private LoginPage loginPage;
     private FormPage formPage;
